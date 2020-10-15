@@ -148,7 +148,7 @@ const App = () => {
         ) }
       </div>
       <div>
-      <a href="https://github.com/Dflewis816">Repurposed for hololive by Dan Lewis</a>
+      <a href="https://github.com/Dflewis816">Poorly repurposed for hololive by Dan Lewis</a>
       </div>
       <div>
       <a href="https://github.com/thirdrender">Bingo generator created by thirdrender</a>
