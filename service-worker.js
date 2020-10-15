@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hololive-bingo/precache-manifest.0ab02391465e4f7388defe182d5f918f.js"
+  "/hololive-bingo/precache-manifest.3d60d144627333fa7bf656b13fd660ab.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a59c12f6e0acd2cb6928cb1bc2b36c29",
+    "revision": "4f5a66f36f9933844ce7bb108a65ede0",
     "url": "/hololive-bingo/index.html"
   },
   {
-    "revision": "c3df8c82cd6a6ba4961a",
+    "revision": "e1779f0440206bfd8bc9",
     "url": "/hololive-bingo/static/css/main.d27ae8f0.chunk.css"
   },
   {
-    "revision": "84067396deabfa7f2c01",
-    "url": "/hololive-bingo/static/js/2.da61a7db.chunk.js"
+    "revision": "4f020dcf733390363e34",
+    "url": "/hololive-bingo/static/js/2.45c16c29.chunk.js"
   },
   {
-    "revision": "c3df8c82cd6a6ba4961a",
-    "url": "/hololive-bingo/static/js/main.7e7c749d.chunk.js"
+    "revision": "e1779f0440206bfd8bc9",
+    "url": "/hololive-bingo/static/js/main.955637ad.chunk.js"
   },
   {
     "revision": "4c95e0be02241708774b",
