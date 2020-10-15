@@ -11,7 +11,7 @@ const defaultValues = {
   width: 5,
   height: 5,
   fontSize: 100,
-  numberOfCards: 1,
+  numberOfCards: 1000000,
   items: [
     'gushing over friends and mentors',
     'PEACE!!!',
@@ -51,6 +51,10 @@ const defaultValues = {
   })(),
 };
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
 const App = () => {
   const [title, setTitle] = useState(defaultValues.title);
   const [freeText, setFreeText] = useState(defaultValues.freeText);
@@ -86,6 +90,19 @@ const App = () => {
       items,
     }));
   }, [title, freeText, freeTextCentered, width, height, fontSize, numberOfCards, items]);
+
+  var cardArray = (new Array(Number(numberOfCards))).fill().map((a, seed) =>
+          <Card
+            items={items}
+            title={title}
+            freeText={freeText}
+            freeTextCentered={freeTextCentered}
+            seed={seed}
+            width={width}
+            height={height}
+            fontSize={fontSize}
+          />
+        );
 
   return (
     <div className={styles.App}>
@@ -139,18 +156,7 @@ const App = () => {
         </div>
       </div> */}
       <div className={styles.Cards}>
-        { (new Array(Number(numberOfCards))).fill().map((a, seed) =>
-          <Card
-            items={items}
-            title={title}
-            freeText={freeText}
-            freeTextCentered={freeTextCentered}
-            seed={seed}
-            width={width}
-            height={height}
-            fontSize={fontSize}
-          />
-        ) }
+        { cardArray[getRandomInt(numberOfCards)] }
       </div>
       <div>
       <a href="https://github.com/Dflewis816">Poorly repurposed for hololive by Dan Lewis</a>
