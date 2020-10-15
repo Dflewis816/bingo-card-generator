@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hololive-bingo/static/css/main.d27ae8f0.chunk.css",
+    "main.js": "/hololive-bingo/static/js/main.459075c7.chunk.js",
+    "main.js.map": "/hololive-bingo/static/js/main.459075c7.chunk.js.map",
+    "runtime-main.js": "/hololive-bingo/static/js/runtime-main.3ac53cb6.js",
+    "runtime-main.js.map": "/hololive-bingo/static/js/runtime-main.3ac53cb6.js.map",
+    "static/js/2.da61a7db.chunk.js": "/hololive-bingo/static/js/2.da61a7db.chunk.js",
+    "static/js/2.da61a7db.chunk.js.map": "/hololive-bingo/static/js/2.da61a7db.chunk.js.map",
+    "index.html": "/hololive-bingo/index.html",
+    "precache-manifest.8ac04508d2a90c3164b7b23265e44cf3.js": "/hololive-bingo/precache-manifest.8ac04508d2a90c3164b7b23265e44cf3.js",
+    "service-worker.js": "/hololive-bingo/service-worker.js",
+    "static/css/main.d27ae8f0.chunk.css.map": "/hololive-bingo/static/css/main.d27ae8f0.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ac53cb6.js",
+    "static/js/2.da61a7db.chunk.js",
+    "static/css/main.d27ae8f0.chunk.css",
+    "static/js/main.459075c7.chunk.js"
+  ]
+}
