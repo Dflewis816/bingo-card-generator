@@ -4,27 +4,41 @@ import FormGroup from './FormGroup';
 import styles from './App.module.scss';
 
 const defaultValues = {
-  title: 'Board Game Bingo',
+  title: 'Calliope Mori Bingo',
   freeText: 'FREE',
   freeTextCentered: true,
   width: 5,
   height: 5,
   fontSize: 100,
-  numberOfCards: 2,
+  numberOfCards: 1,
   items: [
-    'Camel Cup',
-    'MTG draft',
-    'Star Wars Epic Duels (> 4 players)',
-    'Terra Mystica',
-    'Gizmos',
-    '8 player Robo Rally',
-    'Age of Steam',
-    'Terraforming Mars',
-    'Great Western Trail',
-    'Wildcatters',
-    'Bee Lives',
-    'Agricola',
-    'Concordia',
+    'gushing over friends and mentors',
+    'PEACE!!!',
+    'NARUHODONE',
+    'Do not get it Twisted',
+    'no salt',
+    'It\'s like that',
+    'PLEASE, SIR',
+    'I hate it',
+    'STOP',
+    'humming to BGM',
+    'Nanchara Kanchara',
+    'oisho',
+    'SIP',
+    'Your Boi',
+    'TEE HEE TEE HEE',
+    '\"it\'s fine\" x4',
+    'trying not to swear and doing it anyway',
+    'Kusotori in chat',
+    'voice crack',
+    'niHongo muzuKAshii!',
+    'palm spaghetti',
+    'ghost rider',
+    'cursed instrument performance',
+    'PACHIPACHI PACHIPACHI',
+    'sleepy reaper',
+    'MIZU!!!',
+    '\"Scythe Swinging Lessons\"'
   ],
   // Attempt to load existing values from localStorage
   ...(() => {
@@ -74,7 +88,7 @@ const App = () => {
 
   return (
     <div className={styles.App}>
-      <div className={styles.Form}>
+      {/* <div className={styles.Form}>
         <fieldset>
           <FormGroup label="Card title">
             <input type="text" className="form-control" value={title} onChange={(event) => setTitle(event.target.value)} />
@@ -118,7 +132,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={styles.Cards}>
         { (new Array(Number(numberOfCards))).fill().map((a, seed) =>
           <Card
