@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import Card from './Card';
 import FormGroup from './FormGroup';
 import styles from './App.module.scss';
@@ -88,6 +89,10 @@ const App = () => {
 
   return (
     <div className={styles.App}>
+      <Helmet>
+          <title>Hololive Bingo</title>
+          <meta name="description" content="Get your Calliope Mori bingo card here" />
+        </Helmet>
       {/* <div className={styles.Form}>
         <fieldset>
           <FormGroup label="Card title">
